@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-apiVersion: pubsub.cnrm.cloud.google.com/v1beta1
-kind: PubSubSchema
-metadata:
-  name: pubsubtopic-dep
-spec:
-  type: PROTOCOL_BUFFER
-  definition: "syntax = \"proto3\";\nmessage Results {\nstring message_request = 1;\nstring message_response = 2;\nstring timestamp_request = 3;\nstring timestamp_response = 4;\n}"
+#apiVersion: pubsub.cnrm.cloud.google.com/v1beta1
+#kind: PubSubSchema
+#metadata:
+#  name: pubsubtopic-dep
+#spec:
+#  type: PROTOCOL_BUFFER
+#  definition: "syntax = \"proto3\";\nmessage Results {\nstring message_request = 1;\nstring message_response = 2;\nstring timestamp_request = 3;\nstring timestamp_response = 4;\n}"
   # Replace ${PROJECT_ID?} below with your project ID
-  projectRef:
-    external: projects/privateblockchain
+#  projectRef:
+#    external: projects/privateblockchain
