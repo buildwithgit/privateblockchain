@@ -2,8 +2,8 @@
   kind: PubSubTopic
   metadata:
     namespace: kccresources
-    #annotations:
-    #  cnrm.cloud.google.com/project-id: privateblockchain
+    annotations:
+      cnrm.cloud.google.com/project-id: privateblockchain
     labels:
       env: poc
     name: pubsub-eg
