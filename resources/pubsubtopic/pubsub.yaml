@@ -5,4 +5,4 @@
       cnrm.cloud.google.com/project-id: privateblockchain
     labels:
       #env: poc
-    name: pubsubtopic-sample
+    name: pubsub-sample
