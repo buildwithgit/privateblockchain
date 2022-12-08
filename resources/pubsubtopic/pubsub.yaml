@@ -6,4 +6,4 @@
       cnrm.cloud.google.com/project-id: privateblockchain
     labels:
       env: poc
-    name: pubsub-sample
+    name: pubsub-eg
