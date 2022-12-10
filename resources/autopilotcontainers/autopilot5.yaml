@@ -1,0 +1,11 @@
+apiVersion: container.cnrm.cloud.google.com/v1beta1
+kind: ContainerCluster
+metadata:
+  name: autopilot5-central1-rapid
+  namespace: config-control
+spec:
+  description: Autopilot cluster created by Config Sync Repo.
+  enableAutopilot: true
+  location: us-central1
+  releaseChannel:
+    channel: RAPID
